@@ -1,0 +1,30 @@
+{
+	"geode": "2.0.0-beta.17",
+	"version": "v1.0.0",
+    "gd": {
+        "win": "2.204",
+        "android": "2.205",
+        "mac": "2.200"
+    },
+	"id": "m336.copybutton",
+	"name": "Copy Button",
+	"developer": "M336",
+	"description": "A QoL mod that brings back the button to copy the song ID to the level info layer",
+	"repository": "https://github.com/M336G/CopyButton",
+	"issues": {
+		"info": "GitHub Issues",
+		"url": "https://github.com/M336G/CopyButton/issues"
+	},
+	"tags": [
+		"Utility",
+		"Interface",
+		"Song"
+	],
+	"dependencies": [
+        {
+            "id": "geode.node-ids",
+            "version": ">=v1.2.4",
+            "importance": "required"
+        }
+    ]
+}
